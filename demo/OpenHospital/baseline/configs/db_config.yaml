@@ -1,0 +1,94 @@
+
+pools:
+  default_redis:
+    type: "redis"
+    settings:
+      host: "localhost"
+      port: 6379
+      db: 0
+      password: ""
+      decode_responses: true
+    pool_settings:
+      max_connections: 500
+
+  default_graph:
+    type: "redis"
+    settings:
+      host: "localhost"
+      port: 6379
+      db: 1
+      password: ""
+      decode_responses: true
+    pool_settings:
+      max_connections: 500
+adapters:
+  RedisKVAdapter:
+    class_name: "RedisKVAdapter"
+    use_pool: "default_redis"
+  
+  RedisGraphAdapter:
+    class_name: "RedisGraphAdapter"
+    use_pool: "default_graph"
+  MedicalVectorAdapter:
+    class_name: "MilvusVectorAdapter"
+    settings:
+      uri: "http://localhost:19530"
+      token: ""
+      collection_name: "medical_knowledge"
+      vector_dim: 1024
+      embedding_model: "BAAI/bge-m3"
+      index_type: "HNSW"
+      metric_type: "COSINE"
+      index_params:
+        M: 16
+        efConstruction: 200
+      search_params:
+        ef: 64
+  ReflectionVectorAdapter:
+    class_name: "MilvusVectorAdapter"
+    settings:
+      uri: "http://localhost:19530"
+      token: ""
+      collection_name: "doctor_reflections"
+      vector_dim: 1024
+      embedding_model: "BAAI/bge-m3"
+      index_type: "HNSW"
+      metric_type: "COSINE"
+      index_params:
+        M: 16
+        efConstruction: 200
+
+      search_params:
+        ef: 64
+  ExaminationsVectorAdapter:
+    class_name: "MilvusVectorAdapter"
+    settings:
+      uri: "http://localhost:19530"
+      token: ""
+      collection_name: "examinations"
+      vector_dim: 1024
+      embedding_model: "BAAI/bge-m3"
+      index_type: "HNSW"
+      metric_type: "COSINE"
+      index_params:
+        M: 16
+        efConstruction: 200
+
+      search_params:
+        ef: 64
+  PatientVectorAdapter:
+    class_name: "MilvusVectorAdapter"
+    settings:
+      uri: "http://localhost:19530"
+      token: ""
+      collection_name: "patient_medical_history"
+      vector_dim: 1024
+      embedding_model: "BAAI/bge-m3"
+      index_type: "HNSW"
+      metric_type: "COSINE"
+      index_params:
+        M: 16
+        efConstruction: 200
+
+      search_params:
+        ef: 64

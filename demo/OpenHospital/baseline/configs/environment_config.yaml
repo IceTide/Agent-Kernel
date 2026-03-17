@@ -1,0 +1,21 @@
+
+name: HospitalEnvironment
+
+components:
+  relation:
+    plugin:
+      HospitalRelationPlugin:
+        adapters:
+          redis: "RedisGraphAdapter"
+        nodes: "relation_nodes"
+        edges: "relation_edges"
+  hospital_system:
+    plugin:
+      HospitalSystemPlugin:
+        adapters:
+          redis: "RedisKVAdapter"
+  examination_room:
+    plugin:
+      ExaminationRoomPlugin:
+        adapters:
+          redis: "RedisKVAdapter"

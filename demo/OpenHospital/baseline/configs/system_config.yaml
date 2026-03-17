@@ -1,0 +1,25 @@
+
+name: HospitalSimulationSystem
+
+components:
+  messager:
+    allow_self_messages: false
+    block_empty_content: true
+    max_content_length: 2000
+    blocked_senders: []
+    blocked_receivers: []
+    blocked_keywords: []
+    blocked_regex: []
+
+  timer:
+    start_tick: 0
+    timeout_ticks: 200
+  recorder:
+    buffer_size: 100
+    enable_db: true
+    clear_on_init: true
+    dbname: "log_recorder"
+    user: "postgres"
+    password: ""
+    host: "localhost"
+    port: 5432

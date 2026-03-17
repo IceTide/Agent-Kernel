@@ -1,0 +1,22 @@
+simulation:
+  pod_size: 100
+  init_batch_size: 5
+  max_ticks: 0
+  max_active_patients: 50
+configs:
+  environment: "environment_config.yaml"
+  actions: "actions_config.yaml"
+  agent_templates: "agents_config.yaml"
+  system: "system_config.yaml"
+  database: "db_config.yaml"
+  models: "models_config.yaml"
+data:
+  patient_profiles: "data/patients/profiles.jsonl"
+  doctor_profiles: "data/doctors/profiles.jsonl"
+  examination_data: "data/examinations/examination_data.json"
+  ground_truth: "data/ground_truth/ground_truth.json"
+  relation_nodes: "data/relation/nodes.jsonl"
+  relation_edges: "data/relation/edges.jsonl"
+api_server:
+  host: "0.0.0.0"
+  port: 8000

@@ -1,0 +1,38 @@
+{"id": "Doctor_Cardiology_001", "properties": {"name": "Dr. James Wilson", "department": "Cardiology Department", "specialties": ["Heart Failure", "Hypertension", "Coronary Artery Disease", "Arrhythmia"]}}
+{"id": "Doctor_Cardiology_002", "properties": {"name": "Dr. Sarah Chen", "department": "Cardiology Department", "specialties": ["Heart Failure", "Hypertension", "Myocardial Infarction"]}}
+{"id": "Doctor_Dentistry_001", "properties": {"name": "Dr. Michael Brown", "department": "Dentistry Department", "specialties": ["Dental Caries", "Periodontal Disease", "Oral Surgery"]}}
+{"id": "Doctor_Dentistry_002", "properties": {"name": "Dr. Emily Davis", "department": "Dentistry Department", "specialties": ["Orthodontics", "Endodontics", "Prosthodontics"]}}
+{"id": "Doctor_Dermatology_001", "properties": {"name": "Dr. Robert Taylor", "department": "Dermatology Department", "specialties": ["Urticaria", "Eczema", "Psoriasis", "Skin Infections"]}}
+{"id": "Doctor_Dermatology_002", "properties": {"name": "Dr. Lisa Anderson", "department": "Dermatology Department", "specialties": ["Dermatitis", "Acne", "Skin Cancer Screening"]}}
+{"id": "Doctor_Endocrinology_001", "properties": {"name": "Dr. Christopher Lee", "department": "Endocrinology Department", "specialties": ["Diabetes", "Thyroid Disorders", "Cushing Syndrome", "Adrenal Disorders"]}}
+{"id": "Doctor_Endocrinology_002", "properties": {"name": "Dr. Amanda Harris", "department": "Endocrinology Department", "specialties": ["Hyperthyroidism", "Hypothyroidism", "Metabolic Disorders"]}}
+{"id": "Doctor_Gastroenterology_001", "properties": {"name": "Dr. Matthew Clark", "department": "Gastroenterology Department", "specialties": ["Gastritis", "Peptic Ulcer", "Inflammatory Bowel Disease", "Liver Disease"]}}
+{"id": "Doctor_Gastroenterology_002", "properties": {"name": "Dr. Jessica Lewis", "department": "Gastroenterology Department", "specialties": ["Acute Gastroenteritis", "GERD", "Cholecystitis"]}}
+{"id": "Doctor_General_Surgery_001", "properties": {"name": "Dr. Daniel Robinson", "department": "General Surgery Department", "specialties": ["Appendectomy", "Cholecystectomy", "Hernia Repair", "Acute Abdomen"]}}
+{"id": "Doctor_General_Surgery_002", "properties": {"name": "Dr. Nicole Walker", "department": "General Surgery Department", "specialties": ["Laparoscopic Surgery", "Trauma Surgery", "Wound Care"]}}
+{"id": "Doctor_Hematology_001", "properties": {"name": "Dr. Andrew Hall", "department": "Hematology Department", "specialties": ["Anemia", "Leukemia", "Lymphoma", "Coagulation Disorders"]}}
+{"id": "Doctor_Hematology_002", "properties": {"name": "Dr. Stephanie Young", "department": "Hematology Department", "specialties": ["Blood Disorders", "Bone Marrow Diseases", "Hemophilia"]}}
+{"id": "Doctor_Immunology_001", "properties": {"name": "Dr. Kevin King", "department": "Immunology Department", "specialties": ["Rheumatoid Arthritis", "Lupus", "Autoimmune Diseases", "Allergies"]}}
+{"id": "Doctor_Immunology_002", "properties": {"name": "Dr. Michelle Wright", "department": "Immunology Department", "specialties": ["Immunodeficiency", "Vasculitis", "Scleroderma"]}}
+{"id": "Doctor_Infectious_001", "properties": {"name": "Dr. Brian Scott", "department": "Infectious Department", "specialties": ["Infectious Mononucleosis", "Tuberculosis", "HIV/AIDS", "Sepsis"]}}
+{"id": "Doctor_Infectious_002", "properties": {"name": "Dr. Rachel Green", "department": "Infectious Department", "specialties": ["Viral Infections", "Bacterial Infections", "Tropical Diseases"]}}
+{"id": "Doctor_Nephrology_001", "properties": {"name": "Dr. Timothy Adams", "department": "Nephrology Department", "specialties": ["Acute Kidney Injury", "Chronic Kidney Disease", "Dialysis", "Glomerulonephritis"]}}
+{"id": "Doctor_Nephrology_002", "properties": {"name": "Dr. Karen Nelson", "department": "Nephrology Department", "specialties": ["Pyelonephritis", "Kidney Stones", "Electrolyte Disorders"]}}
+{"id": "Doctor_Neurology_001", "properties": {"name": "Dr. Steven Hill", "department": "Neurology Department", "specialties": ["Stroke", "Meningitis", "Epilepsy", "Parkinson Disease"]}}
+{"id": "Doctor_Neurology_002", "properties": {"name": "Dr. Patricia Moore", "department": "Neurology Department", "specialties": ["Multiple Sclerosis", "Headache Disorders", "Neuropathy"]}}
+{"id": "Doctor_Obstetrics_Gynecology_001", "properties": {"name": "Dr. Charles Jackson", "department": "Obstetrics and Gynecology Department", "specialties": ["Pregnancy Care", "Gynecological Surgery", "Menstrual Disorders"]}}
+{"id": "Doctor_Obstetrics_Gynecology_002", "properties": {"name": "Dr. Elizabeth Thomas", "department": "Obstetrics and Gynecology Department", "specialties": ["High Risk Pregnancy", "Infertility", "Endometriosis"]}}
+{"id": "Doctor_Oncology_001", "properties": {"name": "Dr. Joseph Garcia", "department": "Oncology Department", "specialties": ["Lung Cancer", "Breast Cancer", "Chemotherapy", "Radiation Therapy"]}}
+{"id": "Doctor_Oncology_002", "properties": {"name": "Dr. Susan Martinez", "department": "Oncology Department", "specialties": ["Colorectal Cancer", "Leukemia", "Palliative Care"]}}
+{"id": "Doctor_Ophthalmology_001", "properties": {"name": "Dr. Richard Rodriguez", "department": "Ophthalmology Department", "specialties": ["Iritis", "Glaucoma", "Cataracts", "Retinal Diseases"]}}
+{"id": "Doctor_Ophthalmology_002", "properties": {"name": "Dr. Linda Hernandez", "department": "Ophthalmology Department", "specialties": ["Uveitis", "Diabetic Retinopathy", "Corneal Disorders"]}}
+{"id": "Doctor_Orthopedics_001", "properties": {"name": "Dr. Thomas Lopez", "department": "Orthopedics Department", "specialties": ["Lumbar Disc Herniation", "Fractures", "Joint Replacement", "Sports Injuries"]}}
+{"id": "Doctor_Orthopedics_002", "properties": {"name": "Dr. Nancy Gonzalez", "department": "Orthopedics Department", "specialties": ["Spinal Disorders", "Arthritis", "Bone Tumors"]}}
+{"id": "Doctor_Otolaryngology_001", "properties": {"name": "Dr. Mark Wilson", "department": "Otolaryngology Department", "specialties": ["Pharyngitis", "Sinusitis", "Hearing Loss", "Tonsillitis"]}}
+{"id": "Doctor_Otolaryngology_002", "properties": {"name": "Dr. Carol Anderson", "department": "Otolaryngology Department", "specialties": ["Rhinitis", "Laryngitis", "Vertigo"]}}
+{"id": "Doctor_Pediatrics_001", "properties": {"name": "Dr. Donald Taylor", "department": "Pediatrics Department", "specialties": ["Childhood Infections", "Growth Disorders", "Pediatric Emergencies"]}}
+{"id": "Doctor_Pediatrics_002", "properties": {"name": "Dr. Sandra Thomas", "department": "Pediatrics Department", "specialties": ["Vaccination", "Developmental Disorders", "Childhood Asthma"]}}
+{"id": "Doctor_Respiratory_001", "properties": {"name": "Dr. George Harris", "department": "Respiratory Department", "specialties": ["Pneumonia", "COPD", "Asthma", "Lung Cancer"]}}
+{"id": "Doctor_Respiratory_002", "properties": {"name": "Dr. Dorothy Martin", "department": "Respiratory Department", "specialties": ["Bronchitis", "Tuberculosis", "Pulmonary Embolism"]}}
+{"id": "Doctor_Urology_001", "properties": {"name": "Dr. Kenneth Garcia", "department": "Urology Department", "specialties": ["Urinary Tract Infection", "Kidney Stones", "Prostate Disorders", "Bladder Cancer"]}}
+{"id": "Doctor_Urology_002", "properties": {"name": "Dr. Helen Martinez", "department": "Urology Department", "specialties": ["Pyelonephritis", "Incontinence", "Male Infertility"]}}

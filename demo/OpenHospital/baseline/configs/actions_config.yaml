@@ -1,0 +1,20 @@
+
+name: HospitalActions
+
+components:
+  communication:
+    plugins:
+      HospitalCommunicationPlugin:
+        adapters:
+          redis: "RedisKVAdapter"
+  tools:
+    plugins:
+      HospitalToolsPlugin:
+        adapters:
+          redis: "RedisKVAdapter"
+          vectordb: "MedicalVectorAdapter"
+  otheractions:
+    plugins:
+      HospitalOtherActionsPlugin:
+        adapters:
+          redis: "RedisKVAdapter"

@@ -1,0 +1,77 @@
+
+templates:
+  - name: "PatientAgent"
+    component_order:
+      - "perceive"
+      - "plan"
+      - "invoke"
+      - "state"
+    components:
+      profile:
+        plugin:
+          PatientProfilePlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+              milvus: "PatientVectorAdapter"
+            profile_data: "patient_profiles"
+      state:
+        plugin:
+          PatientStatePlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+      plan:
+        plugin:
+          PatientPlannerPlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+      invoke:
+        plugin:
+          PatientInvokePlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+      perceive:
+        plugin:
+          PatientPerceptionPlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+  - name: "DoctorAgent"
+    component_order:
+      - "perceive"
+      - "plan"
+      - "invoke"
+      - "state"
+      - "reflect"
+    components:
+      profile:
+        plugin:
+          DoctorProfilePlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+            profile_data: "doctor_profiles"
+      state:
+        plugin:
+          DoctorStatePlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+      plan:
+        plugin:
+          DoctorPlannerPlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+              examinations_vectordb: "ExaminationsVectorAdapter"
+      invoke:
+        plugin:
+          DoctorInvokePlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+      perceive:
+        plugin:
+          DoctorPerceptionPlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+      reflect:
+        plugin:
+          DoctorReflectPlugin:
+            adapters:
+              redis: "RedisKVAdapter"
+              vectordb: "ReflectionVectorAdapter"

@@ -1,0 +1,23 @@
+
+- name: OpenAIProvider
+  model: deepseek-v3.1
+  api_key: ""
+  base_url: https://your-openai-compatible-endpoint/v1
+  capabilities: ["chat"]
+
+- name: OpenAIProvider
+  model: deepseek-v3.1
+  api_key: ""
+  base_url: https://your-openai-compatible-endpoint/v1
+  capabilities: ["patient"]
+- name: OpenAIProvider
+  model: BAAI/bge-m3
+  api_key:
+  base_url: http://localhost:8654/v1
+  capabilities: ["embedding"]
+
+- name: OpenAIProvider
+  model: deepseek-v3.1
+  api_key: ""
+  base_url: https://your-openai-compatible-endpoint/v1
+  capabilities: ["evaluation"]
